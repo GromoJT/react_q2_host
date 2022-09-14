@@ -1,10 +1,10 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 
 import "./index.scss";
 import TwNavbar from "./components/TwNavbar";
 
-import WrapedCounter from "./components/WrapedCounter";
+const WrapedCounter = React.lazy(()=> import('./components/WrapedCounter'));
 
 const App = () => (
   <>
@@ -18,7 +18,10 @@ const App = () => (
     </div>
     
     <hr/>
+    <Suspense fallback={<div>Ładowanie...</div>}>
       <WrapedCounter />
+    </Suspense>
+      
     
     <hr/>
       
