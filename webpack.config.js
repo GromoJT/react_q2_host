@@ -44,7 +44,8 @@ module.exports = {
       name: "react_q2_host",
       filename: "remoteEntry.js",
       remotes: {
-        solidjs_q2_counter:"solidjs_q2_counter@https://solidjs-counter.web.app/remoteEntry.js"
+        solidjs_q2_counter:"solidjs_q2_counter@https://solidjs-counter.web.app/remoteEntry.js",
+        react_q2_dogs:"react_q2_dogs@https://dip-d9e82.web.app/remoteEntry.js"
       },
       exposes: {},
       shared: {
