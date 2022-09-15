@@ -12,7 +12,7 @@ const WrapedCounter = () => {
   },[])
 
   return (
-    <div className="mt-4" ref={divRef}></div>
+    <div className="mt-4 mb-10" ref={divRef}></div>
   )
 }
 

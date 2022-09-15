@@ -7,7 +7,7 @@ const TwNavbar = () => {
   <div className="container flex flex-wrap justify-between items-center mx-auto">
     <a href="https://github.com/GromoJT" className="flex items-center">
         <img src="https://avatars.githubusercontent.com/u/85227567?v=4" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">TheConstruct - Quest 2</span>
+        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">theConstruct - Quest 2</span>
     </a>
     
   </div>

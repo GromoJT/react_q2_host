@@ -11,7 +11,7 @@ const App = () => (
   <>
     <TwNavbar />
     <div className="container mt-5 mx-auto bg-gray-700 text-2xl px-12 pt-5 pb-5">
-    <div className="mb-2">
+    <div className="mb-5">
       <div>Name: react_host</div>
       <div>Framework: react</div>
       <div>Language: JavaScript</div>
@@ -25,7 +25,10 @@ const App = () => (
       
     
     <hr/>
+    <div className="mb-2 mt-2 text-xs content-center">
       <Dog />
+    </div>
+      
     </div >
     
   </>
