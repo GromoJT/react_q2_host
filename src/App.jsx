@@ -5,7 +5,7 @@ import "./index.scss";
 import TwNavbar from "./components/TwNavbar";
 
 const WrapedCounter = React.lazy(()=> import('./components/WrapedCounter'));
-const Dog = React.lazy(()=> import('react_q2_dogs/Dog'));
+import Dog from 'react_q2_dogs/Dog'
 
 const App = () => (
   <>
